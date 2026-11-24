@@ -1,13 +1,17 @@
 # MedVault
 
-A portable digital health record system for patients and doctors, with secure sharing via QR codes.
+A prototype for organizing and sharing digital health records through QR-linked patient views.
 
-MedVault keeps a person's health records in one place and makes them easy to share. A patient can carry their history on their phone, and a doctor can view the relevant records by scanning a secure QR code instead of handling paper files.
+MedVault explores a patient and doctor workflow for organizing records and opening patient views through QR codes. The current implementation is a prototype, not a secure health-record service.
+
+## Prototype status
+
+Prototype only. Do not use real patient information, real medical files or reused passwords. Authentication, access controls and private file storage need work before a public launch.
 
 ## Features
 
 - Digital health records that patients carry with them
-- Secure record sharing with doctors through QR codes
+- QR-based navigation to patient record views
 - Camera-based QR scanning
 - Works in the browser, no installation needed
 
